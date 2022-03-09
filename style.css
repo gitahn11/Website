@@ -15,8 +15,8 @@ html{
     align-items: center;
     background-color: black;
     position: sticky;
-    top: 0;
-  
+    top: 0;  
+    border-bottom: 1px solid rgb(100, 245, 81);
 }
 
 .navbar ul {
@@ -55,6 +55,7 @@ html{
     justify-content: center;
     align-items: center;
     color: rgb(0, 0, 0);
+    border: 5px solid rgb(100, 245, 81);
 }
 
 #home::before {
@@ -158,6 +159,7 @@ html{
     color: white;
     padding-left: 0rem;
     padding-right: 0rem;
+    border: 5px solid rgb(100, 245, 81);
 }
 
 .row {
@@ -173,6 +175,7 @@ html{
     padding: 0 4px;
     padding-left: 3%;
     padding-right: 3%;
+
   }
   
   .column img {
@@ -216,3 +219,10 @@ html{
 
 
 /*Test*/ 
+.headings {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: black;
+    color: rgb(100, 245, 81);
+    border: 5px solid rgb(100, 245, 81);
+}
